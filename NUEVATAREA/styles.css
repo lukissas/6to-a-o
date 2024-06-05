@@ -1,0 +1,45 @@
+body {
+    background-color: azure;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+}
+
+.block {
+    display: block;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 20px;
+}
+
+.block input {
+    padding: 30px;
+    margin: 20px;
+}
+
+.block button{
+    display: flex;
+    margin-left: 65px;
+    padding: 5px;
+}
+
+
+.impresion {
+    margin: 20px;
+    display: block;
+    justify-content: center;
+    padding: 200px;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+#texto1 {
+    padding: 20px;
+    font-size: 20px;
+    background-color: aliceblue;
+    margin: 20px;
+}

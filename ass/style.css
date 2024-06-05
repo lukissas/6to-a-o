@@ -1,0 +1,54 @@
+body {
+    background-image: url(fondo-azul.png);
+    background-repeat: no-repeat; /* para evitar la repetición de la imagen */
+    background-size: cover; /* para que la imagen cubra todo el espacio */
+}
+
+
+.nav {
+    justify-content: left;
+    color: aliceblue;
+    display: flex;                                                  
+    padding: 30px;
+}
+
+.nav h1{
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.nav img{
+    max-width: 70px;
+    max-height: 70px;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: right;
+    color: aliceblue;
+    padding-right: 50px;
+    margin-top: -80px;
+    font-size: 25px;
+}
+
+.content {
+    display: block;
+    padding: 200px;
+}
+
+.content h2 {
+    font-size: 70px;
+    color: aliceblue;
+}
+
+.content1 img {
+    padding-top: 250px;
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+}
+
+.contenedorgral {
+    display: flex;
+}

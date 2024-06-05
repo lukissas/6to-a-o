@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="block">
+            <div class="flex">
+                <div class="cont">
+                    <input id="NombreUsuario" type="text" placeholder="Ingresa Nombre" required>
+                    <h3 id="muestranombre"></h3>
+                </div>
+                <div class="cont">
+                    <input id="ApellidoUsuario" type="text" placeholder="Ingresa Apellido" required>
+                    <h3 id="muestraapellido"></h3>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="cont">
+                    <input id="EdadUsuario" type="text" placeholder="Ingresa Edad" required>
+                <h3 id="muestraedad"></h3>
+                </div>
+                <div class="cont">
+                    <input id="DNIUsuario" type="text" placeholder="Ingresa DNI" required>
+                    <h3 id="muestradni"></h3>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="cont">
+                    <input id="PaisUsuario" type="text" placeholder="Ingresa Pais" required>
+                <h3 id="muestrapais"></h3>
+                </div>
+                <div class="cont">
+                    <input id="TelefonoUsuario" type="text" placeholder="Ingresa Telefono" required>
+                <h3 id="muestratelefono"></h3>
+                </div>
+                
+                
+            </div>
+            <button onclick="MostrarNombre()">Enviar Datos</button>
+        </div>
+    </div>
+
+
+    <input type="text" id="NombreNuevo">
+    <button onclick="Registrar()">Registrar</button>
+    <div id="ListaNombres">
+
+    </div>
+</body>
+</html>
